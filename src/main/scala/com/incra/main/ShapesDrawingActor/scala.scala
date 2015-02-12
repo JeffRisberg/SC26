@@ -1,4 +1,4 @@
-package com.incra.main.ShapeDrawingActor
+package com.incra.main.ShapesDrawingActor
 
 /**
  * Created by jeff on 2/11/15.
