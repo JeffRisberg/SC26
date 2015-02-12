@@ -26,9 +26,15 @@ object Main {
     val circle00 = new Circle(Point(0.0, 0.0), 6.0)
     val circle01 = new Circle(Point(0.0, 1.0), 8.0)
 
-    def f(str: String) { println(s"ShapeDrawing: $str")}
+    def f(str: String) {
+      println(s"ShapeDrawing: $str")
+    }
 
     circle00.draw(str => println(s"ShapeDrawing: $str"))
     circle01.draw(f)
+
+    val rect01 = new Rectangle(Point(0.0, 0.0), 5.0, 5.0)
+
+    rect01.draw(f)
   }
 }
