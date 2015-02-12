@@ -34,6 +34,8 @@ object Main {
     circle01.draw(f)
 
     val rect01 = new Rectangle(Point(0.0, 0.0), 5.0, 5.0)
+    val tri01 = new Triangle(Point(0.0, 0.0), Point(5.0, 0.0), Point(2.5, 4.2))
+
 
     rect01.draw(f)
   }
