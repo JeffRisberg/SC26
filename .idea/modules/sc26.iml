@@ -22,8 +22,6 @@
     <orderEntry type="library" name="SBT: com.typesafe:config:1.2.1:jar" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.10:2.4-SNAPSHOT:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.4:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-library:2.10.5:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.10.5:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalamacros:quasiquotes_2.10:2.0.1:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-concurrent_2.10:7.1.2:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-core_2.10:7.1.2:jar" level="project" />
@@ -33,5 +31,8 @@
     <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-common_2.10:3.6.2:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-core_2.10:3.6.2:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-matcher_2.10:3.6.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-library:2.10.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.10.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.10:2.2.4:jar" level="project" />
   </component>
 </module>

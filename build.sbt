@@ -7,7 +7,8 @@ resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
 libraryDependencies ++=
   Seq(
     "com.typesafe.akka" %% "akka-actor" % "2.4-SNAPSHOT",
-    "org.specs2" %% "specs2-core" % "3.6.2" % "test")
+    "org.specs2" %% "specs2-core" % "3.6.2" % "test",
+    "org.scalatest" % "scalatest_2.10" % "2.2.4" % "test")
 
 resolvers ++=
   Seq("Akka Snapshot Repository" at "http://repo.akka.io/snapshots/",
